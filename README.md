@@ -11,6 +11,6 @@ Column stagger was adjusted by eye to match some illustrations and mockups I mad
 I found the pinkie cluster idea on accient, when I tried to find images of split keyboards on google. I found an image of [Wubbo](https://github.com/cacheworks/Wubbo). It seemed weird at first but the first tests on paper seemed promising. Time will tell if it works in real life as well.
 
 ## Thanks
-Big thanks for [https://flatfootfox.com/](FlatFootFox) for his awesome [introduction to ergogen v4](https://flatfootfox.com/ergogen-introduction/). This guide taught me everything I know about ergogen and kicad.
+Big thanks for [FlatFootFox](https://flatfootfox.com/) for his awesome [introduction to ergogen v4](https://flatfootfox.com/ergogen-introduction/). This guide taught me everything I know about ergogen and kicad.
 
 And a gigantic thanks for @christianselig, for helping me figure out how to make both PCB halves in one ergogen file.
