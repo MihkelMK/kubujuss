@@ -25,6 +25,9 @@ points:
           rows.top:
             shift: [-kx,-ky]
             width: 1.5kx
+            row_net: P9
+          rows.home:
+            row_net: P6
           key:
             column_net: P18
         ring:
@@ -238,7 +241,7 @@ outlines:
       radius: screwSize
       where:
         ref: [matrix_inner_top]
-        shift: [0.5kx, -0.4ky]
+        shift: [0.4kx, -0.5ky]
     - what: circle
       radius: screwSize
       where:
@@ -273,7 +276,7 @@ outlines:
       radius: screwSize
       where:
         ref: [matrix_pinkie_home]
-        shift: [0.65kx, 0.3ky]
+        shift: [0.8kx, 0.35ky]
   standoff:
     - what: circle
       radius: standoffSize
@@ -289,7 +292,7 @@ outlines:
       radius: standoffSize
       where:
         ref: [matrix_inner_top]
-        shift: [0.5kx, -0.4ky]
+        shift: [0.4kx, -0.5ky]
     - what: circle
       radius: standoffSize
       where:
@@ -324,7 +327,7 @@ outlines:
       radius: standoffSize
       where:
         ref: [matrix_pinkie_home]
-        shift: [0.65kx, 0.3ky]
+        shift: [0.8kx, 0.35ky]
   board2:
     - what: polygon
       operation: stack
@@ -469,12 +472,12 @@ outlines:
       radius: screwSize
       where:
         ref: [mirror_matrix_index_top]
-        shift: [-0.6kx, 0.25ky]
+        shift: [-0.55kx, 0.45ky]
     - what: circle
       radius: screwSize
       where:
         ref: [mirror_matrix_inner_top]
-        shift: [0.5kx, -0.4ky]
+        shift: [0.4kx, -0.5ky]
     - what: circle
       radius: screwSize
       where:
@@ -509,7 +512,7 @@ outlines:
       radius: screwSize
       where:
         ref: [mirror_matrix_pinkie_home]
-        shift: [0.65kx, 0.3ky]
+        shift: [0.6kx, -0.1ky]
   standoff2:
     - what: circle
       radius: standoffSize
@@ -520,12 +523,12 @@ outlines:
       radius: standoffSize
       where:
         ref: [mirror_matrix_index_top]
-        shift: [-0.6kx, 0.25ky]
+        shift: [-0.55kx, 0.45ky]
     - what: circle
       radius: standoffSize
       where:
         ref: [mirror_matrix_inner_top]
-        shift: [0.5kx, -0.4ky]
+        shift: [0.4kx, -0.5ky]
     - what: circle
       radius: standoffSize
       where:
@@ -560,7 +563,7 @@ outlines:
       radius: standoffSize
       where:
         ref: [mirror_matrix_pinkie_home]
-        shift: [0.65kx, 0.3ky]
+        shift: [0.6kx, -0.1ky]
 pcbs:
   mimmuErgoV1_left:
     outlines:
@@ -631,7 +634,7 @@ pcbs:
         what: m2hole
         where:
           ref: [matrix_inner_top]
-          shift: [0.5kx, -0.4ky]
+          shift: [0.4kx, -0.5ky]
       holeCR:
         what: m2hole
         where:
@@ -666,7 +669,7 @@ pcbs:
         what: m2hole
         where:
           ref: [matrix_pinkie_home]
-          shift: [0.65kx, 0.3ky]
+          shift: [0.8kx, 0.35ky]
   # mimmuErgoV1_right:
   #   outlines:
   #     main:
@@ -720,9 +723,9 @@ pcbs:
   #         from: P20
   #         to: P19
   #         A: GND
-  #         B: P3
-  #         C: P2
-  #     holeTL:
+  #         B: P2
+  #         C: P3
+  #     holeTR:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_middle_top]
@@ -731,13 +734,13 @@ pcbs:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_index_top]
-  #         shift: [-0.6kx, 0.25ky]
-  #     holeTR:
+  #         shift: [-0.55kx, 0.45ky]
+  #     holeTL:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_inner_top]
-  #         shift: [0.5kx, -0.4ky]
-  #     holeCR:
+  #         shift: [0.4kx, -0.5ky]
+  #     holeCL:
   #       what: m2hole
   #       where:
   #         ref: [mirror_thumbs_space_cluster]
@@ -747,31 +750,31 @@ pcbs:
   #       where:
   #         ref: [mirror_thumbs_space_cluster]
   #         shift: [-0.5kx, -0.25ky]
-  #     holeCL:
+  #     holeCR:
   #       what: m2hole
   #       where:
   #         ref: [mirror_thumbs_layer_cluster]
   #         shift: [-0.4kx, 0.6ky]
-  #     holeMR:
+  #     holeML:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_index_bottom]
   #         shift: [-0.6kx, 0.9ky]
-  #     holeBR:
+  #     holeBL:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_middle_bottom]
   #         shift: [-0.4kx, -0.55ky]
-  #     holeBL:
+  #     holeBR:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_pinkie_home]
   #         shift: [-0.5kx, -0.45ky]
-  #     holeML:
+  #     holeMR:
   #       what: m2hole
   #       where:
   #         ref: [mirror_matrix_pinkie_home]
-  #         shift: [0.65kx, 0.3ky]
+  #         shift: [0.6kx, -0.1ky]
 cases:
   bottom:
     - name: board

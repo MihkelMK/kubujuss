@@ -1,5 +1,5 @@
 function standoff_extrude_4_outline_fn(){
-    return CAG.circle({"center":[105.6415316,-155.8690695],"radius":2.5})
+    return CAG.circle({"center":[108.0295352,-154.3492211],"radius":2.5})
 .union(
     CAG.circle({"center":[88.9468099,-173.542178],"radius":2.5})
 ).union(
@@ -13,7 +13,7 @@ function standoff_extrude_4_outline_fn(){
 ).union(
     CAG.circle({"center":[198.2917389,-198.9879051],"radius":2.5})
 ).union(
-    CAG.circle({"center":[185.4696352,-152.351296],"radius":2.5})
+    CAG.circle({"center":[183.4758743,-153.8192597],"radius":2.5})
 ).union(
     CAG.circle({"center":[149.6636552,-133.7993613],"radius":2.5})
 ).union(
@@ -23,7 +23,7 @@ function standoff_extrude_4_outline_fn(){
 
 
 function mounting_extrude_4_outline_fn(){
-    return CAG.circle({"center":[105.6415316,-155.8690695],"radius":1.5})
+    return CAG.circle({"center":[108.0295352,-154.3492211],"radius":1.5})
 .union(
     CAG.circle({"center":[88.9468099,-173.542178],"radius":1.5})
 ).union(
@@ -37,7 +37,7 @@ function mounting_extrude_4_outline_fn(){
 ).union(
     CAG.circle({"center":[198.2917389,-198.9879051],"radius":1.5})
 ).union(
-    CAG.circle({"center":[185.4696352,-152.351296],"radius":1.5})
+    CAG.circle({"center":[183.4758743,-153.8192597],"radius":1.5})
 ).union(
     CAG.circle({"center":[149.6636552,-133.7993613],"radius":1.5})
 ).union(
