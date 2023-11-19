@@ -1,5 +1,5 @@
 # kubujuss WIP
-This is my second custom keyboard. I started with a Keychron K3 with lubed Gateron Yellows and a custom slimmer case without the battery. It has served me well but the barrage of keyboard content has slowly built up the urge to make another one.
+This is my second custom keyboard. I started with a Keychron K2 with lubed Gateron Yellows and a custom slimmer case without the battery. It has served me well but the barrage of keyboard content has slowly built up the urge to make another one.
 
 Typically there seems to be some keyboard inbetween a 75% layout and minimal split keyboard, but the soothing and dangerously approachable videos of Ben Wallok have radicalised me beyond repair.
 
