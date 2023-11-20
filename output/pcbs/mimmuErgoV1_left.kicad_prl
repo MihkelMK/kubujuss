@@ -34,12 +34,15 @@
       3,
       4,
       5,
+      6,
+      7,
       8,
       9,
       10,
       11,
       12,
       13,
+      14,
       15,
       16,
       17,
@@ -68,7 +71,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "mimmuErgoV1_left_screwed.kicad_prl",
+    "filename": "mimmuErgoV1_left.kicad_prl",
     "version": 3
   },
   "project": {

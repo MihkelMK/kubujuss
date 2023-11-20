@@ -570,13 +570,12 @@ pcbs:
       main:
         outline: board
     footprints:
-      choc_hotswap:
+      choc:
         what: choc
         where: /^(?:matrix|thumbs)_.*/
         params:
           keycaps: true
           reverse: false
-          hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
       # Through Hole or SMD Diodes
@@ -675,13 +674,12 @@ pcbs:
   #     main:
   #       outline: board2
   #   footprints:
-  #     choc_hotswap:
+  #     choc:
   #       what: choc
-  #       where: /^mirror_.*/
+  #       where: /^mirror_.*/        
   #       params:
   #         keycaps: true
   #         reverse: false
-  #         hotswap: true
   #         from: "{{column_net}}"
   #         to: "{{colrow}}"
   #     # Through Hole or SMD Diodes

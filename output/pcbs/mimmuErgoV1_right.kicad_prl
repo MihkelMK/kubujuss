@@ -67,11 +67,11 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "003ffff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "mimmuErgoV1_right_screwed.kicad_prl",
+    "filename": "mimmuErgoV1_right.kicad_prl",
     "version": 3
   },
   "project": {
